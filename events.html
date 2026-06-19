@@ -1,120 +1,117 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>175 records — Events</title>
-<meta name="description" content="Every 175 records night in its own colour. La Java, Panic Room, Le Mazette, Jardin 21, Le Progrès.">
+<meta name="description" content="Every 175 records night, in its own colour. Paris, 2025–2026.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="assets/css/styles.css">
+<link rel="stylesheet" href="assets/css/styles.css?v=20">
 </head>
 <body>
 
-<div class="intro"><svg class="star" viewBox="0 0 100 100" fill="currentColor" aria-hidden="true"><path d="M50 2 61 38 98 38 68 60 79 96 50 74 21 96 32 60 2 38 39 38Z"/></svg></div>
-<div class="shutter"><svg class="star" viewBox="0 0 100 100" fill="currentColor" aria-hidden="true"><path d="M50 2 61 38 98 38 68 60 79 96 50 74 21 96 32 60 2 38 39 38Z"/></svg></div>
+<div class="intro"><span class="logo-anim"><img class="screen-logo light-only" src="assets/img/logo-black.png" alt="175 records"><img class="screen-logo dark-only" src="assets/img/homemadeWhiteLogo.png" alt="" aria-hidden="true"></span><span class="tagline">Everyone loves 175</span></div>
+<div class="shutter"><span class="logo-anim"><img class="screen-logo light-only" src="assets/img/logo-black.png" alt="175 records"><img class="screen-logo dark-only" src="assets/img/homemadeWhiteLogo.png" alt="" aria-hidden="true"></span><span class="tagline">Everyone loves 175</span></div>
 <div class="grain"></div><div class="vignette"></div>
 <div class="edge-label">Archive — every night a colour</div>
 
 <header class="site-head">
-  <a class="brand" href="index.html" data-cursor-label="Home">
-    <svg class="star" viewBox="0 0 100 100" fill="currentColor" aria-hidden="true"><path d="M50 2 61 38 98 38 68 60 79 96 50 74 21 96 32 60 2 38 39 38Z"/></svg>
-    <span class="word">175 records</span>
-  </a>
+  <a class="brand" href="index.html" data-cursor-label="Home"><img class="brand-logo light-only" src="assets/img/logo-black.png" alt="175 records"><img class="brand-logo dark-only" src="assets/img/homemadeWhiteLogo.png" alt="" aria-hidden="true"><span class="word">175 records</span></a>
+  <nav class="nav-mini" aria-label="Quick links">
+    <a href="index.html" data-en="Home" data-fr="Accueil">Home</a>
+    <a href="events.html" aria-current="page" data-en="Events" data-fr="Soirées">Events</a>
+  </nav>
   <nav class="nav">
     <a href="index.html" data-en="Home" data-fr="Accueil">Home</a>
     <a href="events.html" aria-current="page" data-en="Events" data-fr="Soirées">Events</a>
+    <a href="artists.html" data-en="Artists" data-fr="Artistes">Artists</a>
     <a href="about.html" data-en="About" data-fr="À propos">About</a>
+    <a href="support.html" data-en="Support" data-fr="Soutenir">Support</a>
   </nav>
+  <button class="nav-toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span></button>
 </header>
 
-<!-- PAGE HEAD -->
-<section class="hero" style="min-height:76svh">
-  <div class="watermark" data-parallax="-0.10" style="position:absolute;right:-1vw;top:14vh;font-size:44vw;z-index:0">175</div>
+<section class="hero" style="min-height:70svh">
+  <div class="watermark" data-parallax="-0.10" style="position:absolute;right:-1vw;top:16vh;font-size:42vw;z-index:0">175</div>
   <div class="hero-inner">
-    <p class="hero-tag" data-en="Archive · 2025 — 2026" data-fr="Archive · 2025 — 2026">Archive · 2025 — 2026</p>
+    <p class="hero-tag" data-en="Paris · 2025 — 2026" data-fr="Paris · 2025 — 2026">Paris · 2025 — 2026</p>
     <h1 class="mega"><span class="ln"><span data-en="Events" data-fr="Soirées">Events</span></span></h1>
     <div class="hero-foot">
-      <p data-en="Five nights, five identities. Hover a night to bring it back to life — click to step inside its world." data-fr="Cinq soirées, cinq identités. Survole une soirée pour la rallumer — clique pour entrer dans son univers.">Five nights, five identities. Hover a night to bring it back to life — click to step inside its world.</p>
-      <span class="scroll-cue"><span class="bar"></span><span data-en="Hover to colour" data-fr="Survole pour colorer">Hover to colour</span></span>
-    </div>
+      <p data-en="Thirteen nights and counting. Hover a flagship to bring it back to life — click to step inside its world." data-fr="Treize soirées et ça continue. Survole une affiche pour la rallumer, clique pour entrer dans son univers.">Thirteen nights and counting. Hover a flagship to bring it back to life — click to step inside its world.</p>    </div>
   </div>
 </section>
 
-<!-- EVENTS GRID -->
+<!-- FLAGSHIP POSTERS -->
 <div class="wrap">
+  <div class="section-head"><h2 class="section-title" data-en="Best nights" data-fr="Best nights">Best nights</h2></div>
   <div class="events-grid">
-
-    <div class="ev up" style="--ev:#3D5BFF"
-      data-color="#3D5BFF" data-title="Everyone Loves 175" data-genre="House · Disco · Electro"
-      data-venue="Jardin 21 — La Villette, Paris 19" data-date="14 May 2026"
-      data-lineup="Val, imlouisecoindre, Mani Lo, Bernix"
-      data-desc-en="Acid-bright, disco-ball, magenta and electric blue. An open-air all-dayer at Jardin 21, La Villette."
-      data-desc-fr="Acide et fluo, boule à facettes, magenta et bleu électrique. Un open-air toute la journée au Jardin 21, La Villette."
-      data-cursor-label="Open">
+    <div class="ev up" style="--ev:#3D5BFF" data-color="#3D5BFF" data-title="Everyone Loves 175" data-genre="House · Disco · Electro"
+      data-venue="Jardin 21 — 12A rue Ella Fitzgerald, 75019" data-date="14 May 2026" data-lineup="Val, imlouisecoindre, Mani Lo, Bernix"
+      data-desc-en="Acid-bright, disco-ball, magenta and electric blue. Open-air at Jardin 21, La Villette." data-desc-fr="Acide et fluo, boule à facettes, magenta et bleu électrique. Open-air au Jardin 21, La Villette." data-cursor-label="Open">
       <span class="num">001</span><span class="tagdot"></span>
       <div class="poster"><img src="assets/img/ev-jardin21.jpg" alt="175 X Jardin 21 poster"><div class="glow"></div></div>
-      <div class="meta"><div class="top"><span>14.05.26</span><span>Jardin 21</span></div>
-        <h3>Everyone Loves 175</h3><div class="line venue">La Villette, Paris 19</div>
-        <div class="line">Val · imlouisecoindre · Mani Lo · Bernix</div></div>
+      <div class="meta"><div class="top"><span>14.05.26</span><span>Jardin 21</span></div><h3>Everyone Loves 175</h3>
+        <div class="line venue">La Villette, Paris 19</div><div class="line">Val · imlouisecoindre · Mani Lo · Bernix</div></div>
     </div>
-
-    <div class="ev up" style="--ev:#FF2E9A"
-      data-color="#FF2E9A" data-title="Cookie Boat Party" data-genre="Club · Pop · Rave"
-      data-venue="Le Mazette, Paris" data-date="20 June 2026"
-      data-lineup="As de Vic, Bagardo, Pocket, Rémi Klein, Donna Gibson, Cosima, Val, imlouisecoindre"
-      data-desc-en="A candy-wrapper rave on the water with Cookie records. Yellow, magenta, an ice-cream cone and a very long lineup."
-      data-desc-fr="Une rave emballage de bonbon sur l'eau avec Cookie records. Jaune, magenta, un cornet de glace et un line-up très long."
-      data-cursor-label="Open">
+    <div class="ev up" style="--ev:#FF2E9A" data-color="#FF2E9A" data-title="Cookie Boat Party" data-genre="Club · Pop · Rave"
+      data-venue="Le Mazette, Paris" data-date="20 June 2026" data-lineup="As de Vic, Bagardo, Pocket, Donna Gibson, Cosima, Val, imlouisecoindre"
+      data-desc-en="A candy-wrapper rave on the water with Cookie records. Yellow, magenta, ice-cream and a very long lineup." data-desc-fr="Une rave emballage de bonbon sur l'eau avec Cookie records. Jaune, magenta, glace et un line-up très long." data-cursor-label="Open">
       <span class="num">002</span><span class="tagdot"></span>
       <div class="poster"><img src="assets/img/ev-cookie.jpg" alt="Cookie Boat Party poster"><div class="glow"></div></div>
-      <div class="meta"><div class="top"><span>20.06.26</span><span>Le Mazette</span></div>
-        <h3>Cookie Boat Party</h3><div class="line venue">Le Mazette, Paris</div>
-        <div class="line">imlouisecoindre b2b Val · guests</div></div>
+      <div class="meta"><div class="top"><span>20.06.26</span><span>Le Mazette</span></div><h3>Cookie Boat Party</h3>
+        <div class="line venue">Le Mazette, Paris</div><div class="line">imlouisecoindre b2b Val · guests</div></div>
     </div>
-
-    <div class="ev up" style="--ev:#FF6A2C"
-      data-color="#FF6A2C" data-title="Everyone Loves 175 — Ed.2" data-genre="French touch · Electro · Techno"
-      data-venue="101 rue Amelot, Panic Room, Paris 11" data-date="16 May 2026"
-      data-lineup="Teyo b2b Nachos, Val, imlouisecoindre, Mani Lo"
-      data-desc-en="Edition two, washed in watercolour orange under a hand-drawn 175 logo. 19h to 05h, all warmth."
-      data-desc-fr="Deuxième édition, baignée d'orange aquarelle sous un logo 175 dessiné à la main. 19h à 05h, tout en chaleur."
-      data-cursor-label="Open">
+    <div class="ev up" style="--ev:#FF6A2C" data-color="#FF6A2C" data-title="Everyone Loves 175 — Ed.2" data-genre="French touch · Electro · Techno"
+      data-venue="Panic Room — 105 rue Amelot, 75011" data-date="16 May 2026" data-lineup="Teyo b2b Nachos, Val, imlouisecoindre, Mani Lo"
+      data-desc-en="Edition two, washed in watercolour orange under a hand-drawn 175 logo." data-desc-fr="Deuxième édition, baignée d'orange aquarelle sous un logo 175 dessiné à la main." data-cursor-label="Open">
       <span class="num">003</span><span class="tagdot"></span>
       <div class="poster"><img src="assets/img/ev-panicroom.jpg" alt="Everyone Loves 175 edition 2 poster"><div class="glow"></div></div>
-      <div class="meta"><div class="top"><span>16.05.26</span><span>Panic Room</span></div>
-        <h3>Everyone Loves 175 — Ed.2</h3><div class="line venue">101 rue Amelot, Paris 11</div>
-        <div class="line">Teyo b2b Nachos · Val · Mani Lo</div></div>
+      <div class="meta"><div class="top"><span>16.05.26</span><span>Panic Room</span></div><h3>Everyone Loves 175 — Ed.2</h3>
+        <div class="line venue">105 rue Amelot, Paris 11</div><div class="line">Teyo b2b Nachos · Val · Mani Lo</div></div>
     </div>
-
-    <div class="ev up wide" style="--ev:#E2241B"
-      data-color="#E2241B" data-title="Everyone Loves 175 Records" data-genre="French touch · Electro · Techno"
-      data-venue="La Java, Paris 10" data-date="Thu 26 March 2026"
-      data-lineup="imlouisecoindre, Tino, Unison, Bernix"
-      data-desc-en="Our editorial night at La Java. Black-and-white posters, full-frame photography, the 175 star in the corner. 00h to 06h."
-      data-desc-fr="Notre soirée éditoriale à La Java. Affiches noir et blanc, photo plein cadre, l'étoile 175 dans le coin. 00h à 06h."
-      data-cursor-label="Open">
+    <div class="ev up wide" style="--ev:#E2241B" data-color="#E2241B" data-title="Everyone Loves 175 Records" data-genre="French touch · Electro · Techno"
+      data-venue="Java Belleville — 105 rue du Fbg du Temple, 75010" data-date="26 March 2026" data-lineup="imlouisecoindre, Tino, Unison, Bernix"
+      data-desc-en="Our editorial night at La Java. Black-and-white posters, full-frame photography, the 175 star in the corner. 00h–06h." data-desc-fr="Notre soirée éditoriale à La Java. Affiches noir et blanc, photo plein cadre, l'étoile 175 dans le coin. 00h–06h." data-cursor-label="Open">
       <span class="num">004</span><span class="tagdot"></span>
-      <div class="poster" style="aspect-ratio:16/10"><img src="assets/img/ev-lajava.jpg" alt="Everyone Loves 175 Records — La Java poster"><div class="glow"></div></div>
-      <div class="meta"><div class="top"><span>26.03.26</span><span>La Java</span></div>
-        <h3>Everyone Loves 175 Records</h3><div class="line venue">La Java, Paris 10 — French touch · Electro · Techno</div>
-        <div class="line">imlouisecoindre · Tino · Unison · Bernix</div></div>
+      <div class="poster" style="aspect-ratio:16/10"><img src="assets/img/ev-lajava.jpg" alt="Everyone Loves 175 Records La Java poster"><div class="glow"></div></div>
+      <div class="meta"><div class="top"><span>26.03.26</span><span>Java Belleville</span></div><h3>Everyone Loves 175 Records</h3>
+        <div class="line venue">105 rue du Faubourg du Temple, Paris 10</div><div class="line">imlouisecoindre · Tino · Unison · Bernix</div></div>
     </div>
-
-    <div class="ev up wide" style="--ev:#F2F0EA"
-      data-color="#F2F0EA" data-title="175 Records Release Night" data-genre="Release night · All night"
-      data-venue="Le Progrès — 1 rue de Bretagne, Paris 3" data-date="26 October"
-      data-lineup="175 records residents"
-      data-desc-en="Where it started. A raw black-and-white release night at Le Progrès. Press-grade, no colour, all attitude."
-      data-desc-fr="Là où tout a commencé. Une release night brute en noir et blanc au Progrès. Esprit presse, aucune couleur, que de l'attitude."
-      data-cursor-label="Open">
+    <div class="ev up wide" style="--ev:#7A766E" data-color="#7A766E" data-title="175 Records Release Night" data-genre="Release night · All night"
+      data-venue="Le Progrès Marais — 1 rue de Bretagne, 75003" data-date="26 October 2025" data-lineup="175 records residents"
+      data-desc-en="Where it started. A raw black-and-white release night at Le Progrès. Press-grade, no colour, all attitude." data-desc-fr="Là où tout a commencé. Une release night brute en noir et blanc au Progrès. Esprit presse, aucune couleur, que de l'attitude." data-cursor-label="Open">
       <span class="num">005</span><span class="tagdot"></span>
       <div class="poster" style="aspect-ratio:16/10"><img src="assets/img/ev-release.jpg" alt="175 Records Release Night poster"><div class="glow"></div></div>
-      <div class="meta"><div class="top"><span>26.10</span><span>Le Progrès</span></div>
-        <h3>Release Night</h3><div class="line venue">1 rue de Bretagne, Paris 3</div>
-        <div class="line" data-en="The first one. Black & white." data-fr="La première. Noir et blanc.">The first one. Black &amp; white.</div></div>
+      <div class="meta"><div class="top"><span>26.10.25</span><span>Le Progrès</span></div><h3>Release Night</h3>
+        <div class="line venue">1 rue de Bretagne, Paris 3</div><div class="line" data-en="The first one. Black &amp; white." data-fr="La première. Noir et blanc.">The first one. Black &amp; white.</div></div>
     </div>
+  </div>
+</div>
 
+<!-- FULL AGENDA -->
+<div class="wrap">
+  <div class="section-head"><h2 class="section-title" data-en="All dates" data-fr="Toutes les dates">All dates</h2></div>
+
+  <p class="sub-head" data-en="Upcoming" data-fr="À venir">Upcoming</p>
+  <div class="agenda">
+    <div class="row up" style="--ev:#FF2E9A"><div class="date"><b>20.06</b>2026</div><div><a class="venue" href="#" data-noanim>Le Mazette</a><div class="addr" data-en="Cookie Boat Party · Paris" data-fr="Cookie Boat Party · Paris">Cookie Boat Party · Paris</div></div><a class="cta" href="#" data-noanim data-en="Tickets" data-fr="Billetterie">Tickets</a><span class="flag"></span></div>
+    <div class="row up"><div class="date"><b>21.06</b>2026</div><div><a class="venue" href="#" data-noanim data-en="Fête de la Musique" data-fr="Fête de la Musique">Fête de la Musique</a><div class="addr" data-en="Venue to be confirmed" data-fr="Lieu à confirmer">Venue to be confirmed</div></div><a class="cta soon" href="#" data-noanim data-en="Soon" data-fr="Bientôt">Soon</a><span class="flag"></span></div>
+    <div class="row up" style="--ev:#3D5BFF"><div class="date"><b>02.07</b>2026</div><div><a class="venue" href="#" data-noanim>Jardin 21</a><div class="addr">12A rue Ella Fitzgerald, 75019</div></div><a class="cta" href="#" data-noanim data-en="Tickets" data-fr="Billetterie">Tickets</a><span class="flag"></span></div>
+    <div class="row up" style="--ev:#3D5BFF"><div class="date"><b>22.07</b>2026</div><div><a class="venue" href="#" data-noanim>Jardin 21</a><div class="addr">12A rue Ella Fitzgerald, 75019</div></div><a class="cta soon" href="#" data-noanim data-en="Soon" data-fr="Bientôt">Soon</a><span class="flag"></span></div>
+    <div class="row up" style="--ev:#E2241B"><div class="date"><b>19.09</b>2026</div><div><a class="venue" href="#" data-noanim>Java Belleville</a><div class="addr">105 rue du Faubourg du Temple, 75010</div></div><a class="cta soon" href="#" data-noanim data-en="Soon" data-fr="Bientôt">Soon</a><span class="flag"></span></div>
+  </div>
+
+  <p class="sub-head" data-en="Past" data-fr="Passées">Past</p>
+  <div class="agenda">
+    <div class="row past up"><div class="date"><b>18.06</b>2026</div><div><span class="venue">Badaboum</span><div class="addr">2 bis rue des Taillandiers, 75011</div></div><span class="cta" style="border:none;opacity:.4">—</span><span class="flag"></span></div>
+    <div class="row past up" style="--ev:#FF6A2C"><div class="date"><b>16.05</b>2026</div><div><span class="venue">Panic Room</span><div class="addr">105 rue Amelot, 75011 · Everyone Loves 175 Ed.2</div></div><span class="cta" style="border:none;opacity:.4">—</span><span class="flag"></span></div>
+    <div class="row past up" style="--ev:#3D5BFF"><div class="date"><b>14.05</b>2026</div><div><span class="venue">Jardin 21</span><div class="addr">12A rue Ella Fitzgerald, 75019 · Everyone Loves 175</div></div><span class="cta" style="border:none;opacity:.4">—</span><span class="flag"></span></div>
+    <div class="row past up" style="--ev:#E2241B"><div class="date"><b>26.03</b>2026</div><div><span class="venue">Java Belleville</span><div class="addr">105 rue du Faubourg du Temple, 75010</div></div><span class="cta" style="border:none;opacity:.4">—</span><span class="flag"></span></div>
+    <div class="row past up"><div class="date"><b>27.01</b>2026</div><div><span class="venue">Hôtel de Jarnac</span><div class="addr">8 rue Monsieur, 75007</div></div><span class="cta" style="border:none;opacity:.4">—</span><span class="flag"></span></div>
+    <div class="row past up"><div class="date"><b>19.12</b>2025</div><div><span class="venue">Chez Moune</span><div class="addr">54 rue Jean-Baptiste Pigalle, 75009</div></div><span class="cta" style="border:none;opacity:.4">—</span><span class="flag"></span></div>
+    <div class="row past up"><div class="date"><b>13.12</b>2025</div><div><span class="venue">Pamela Club</span><div class="addr">62 rue Mazarine, 75006</div></div><span class="cta" style="border:none;opacity:.4">—</span><span class="flag"></span></div>
+    <div class="row past up" style="--ev:#7A766E"><div class="date"><b>26.10</b>2025</div><div><span class="venue">Le Progrès Marais</span><div class="addr">1 rue de Bretagne, 75003 · Release Night</div></div><span class="cta" style="border:none;opacity:.4">—</span><span class="flag"></span></div>
   </div>
 </div>
 
@@ -135,24 +132,28 @@
   </div>
 </div>
 
-<!-- FOOTER -->
 <footer class="site-foot">
   <div class="foot-grid">
-    <div><div class="big-mark">Everyone<br>loves 175</div></div>
+    <div><div class="big-mark">Everyone<br>loves 175 <svg class="fstar" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 2 61 38 98 38 68 60 79 96 50 74 21 96 32 60 2 38 39 38Z"/></svg></div></div>
     <div><h5 data-en="Follow" data-fr="Suivre">Follow</h5>
-      <a href="#" data-noanim>Instagram</a><a href="#" data-noanim>SoundCloud</a><a href="#" data-noanim>Bandcamp</a></div>
+      <a href="https://www.instagram.com/175record.s" target="_blank" rel="noopener" data-noanim>Instagram</a>
+      <a href="#" data-noanim>SoundCloud</a><a href="#" data-noanim>Bandcamp</a></div>
     <div><h5 data-en="Come through" data-fr="Venir">Come through</h5>
-      <a href="#" data-noanim>Shotgun — tickets</a>
-      <a href="about.html" data-en="About us" data-fr="À propos">About us</a></div>
-    <div><h5 data-en="Language" data-fr="Langue">Language</h5>
-      <div class="lang"><button data-lang="en" class="active">EN</button><button data-lang="fr">FR</button></div></div>
+      <a href="artists.html" data-en="Artists" data-fr="Artistes">Artists</a>
+      <a href="support.html" data-en="Support us" data-fr="Nous soutenir">Support us</a>
+      <a href="mailto:contact@175records.com" data-noanim>contact@175records.com</a></div>
+    <div><h5 data-en="Display" data-fr="Affichage">Display</h5>
+      <div class="switches">
+        <div class="seg" role="group" aria-label="Language"><button data-lang-btn="en" class="active">EN</button><button data-lang-btn="fr">FR</button></div>
+        <div class="seg" role="group" aria-label="Theme"><button data-theme-btn="light" class="active" data-en="Light" data-fr="Clair">Light</button><button data-theme-btn="dark" data-en="Dark" data-fr="Sombre">Dark</button></div>
+      </div></div>
   </div>
   <div class="foot-base">
-    <span>© 2026 175 records — Paris</span><span>Come early, stay late</span>
+    <span>© 2026 175 records — Paris — since 2025</span><span>Come early, stay late</span>
     <span data-en="Hover. Click. Stay." data-fr="Survole. Clique. Reste.">Hover. Click. Stay.</span>
   </div>
 </footer>
 
-<script src="assets/js/main.js"></script>
+<script src="assets/js/main.js?v=20"></script>
 </body>
 </html>
